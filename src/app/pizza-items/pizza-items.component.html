@@ -1,0 +1,26 @@
+  <div class="container center-block">
+
+    <h1 class="text-center mb-5">{{cat}}</h1>
+
+      <div *ngFor="let pizza of filltredPizza">
+
+        <div class="row">
+              <div class="col-4">
+                    <div class="card" >
+                        <div class="card-body">
+                          <h5 class="card-title">{{pizza.title_cat}}</h5>
+                          <h6 class="card-subtitle text-muted">{{pizza.title_cat}}</h6>
+                          <p class="card-text">Size : {{pizza.size}}</p>
+                          <p class="card-text">Taken : {{pizza.taken}}</p>
+
+
+                          <a href="#" class="card-link">Card link</a>
+                          <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+              </div>
+        </div>
+
+      </div>
+      
+  </div>

@@ -1,0 +1,23 @@
+<div class="header text-center">
+<h1>Our Pizza</h1>
+</div>
+
+
+<div class="body container mt-5 shadow">
+
+  <div class="row">
+
+    <a [routerLink]="['/items', categorie.title]" *ngFor="let categorie of categories" >
+    <div class="col-4" >
+    <div class="card ml-2" style="width: 18rem;">
+        <img src="{{categorie.image}}" class="card-img-top"  alt="Card image cap" width="150px" height="250px">
+        <div class="card-body">
+          <h3>{{categorie.title}}</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    </a>
+    
+    </div>
+</div>

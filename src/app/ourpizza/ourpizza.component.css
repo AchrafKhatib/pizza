@@ -1,0 +1,23 @@
+h1{
+    font-family: serif;
+    font-size: 80px;
+    padding-top: 18px;
+
+
+}
+.header {
+    background-color: #e0e0e0;
+    height: 130px;
+}
+
+.body{
+
+    border: 2px #676767 solid;
+    padding: 75px;
+    border-radius: 50px;    
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
